@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #1a1a2e;
+  color: white;
+}
+
+.app {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.app h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.app p {
+  color: #aaa;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0 8px;
+  transition: transform 0.1s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn-primary {
+  background: #646cff;
+  color: white;
+}
+
+.btn-secondary {
+  background: #333;
+  color: #aaa;
+}
+
+.btn-secondary.done {
+  background: #22c55e;
+  color: white;
+}   
